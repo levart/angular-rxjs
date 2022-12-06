@@ -73,17 +73,17 @@ export class AppComponent implements OnInit, AfterViewInit {
     // setTimeout(() => {
     //   interval$.unsubscribe();
     // },5000)
-
-    // timer
-    timer(5000).subscribe((value) => {
-      console.log(value);
-    })
-
-    //range
-    const stream$ = range(42, 10)
-      .subscribe((value) => {
-        console.log(value);
-      });
+    //
+    // // timer
+    // timer(5000).subscribe((value) => {
+    //   console.log(value);
+    // })
+    //
+    // //range
+    // const stream$ = range(42, 10)
+    //   .subscribe((value) => {
+    //     console.log(value);
+    //   });
   }
 
   ngAfterViewInit(): void {
